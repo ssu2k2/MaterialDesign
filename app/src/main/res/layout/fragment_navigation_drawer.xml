@@ -1,0 +1,41 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NavigationDrawerFragment" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="bottom|left"
+        android:paddingLeft="10dp"
+        android:paddingBottom="3dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Material\nColors"
+        android:background="#9e9e9e"
+        android:id="@+id/tvMenu01" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center|left"
+        android:paddingLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Color List"
+        android:textColor="#bdbdbd"
+        android:background="#ffffff"
+        android:id="@+id/tvMenu02" />
+
+    <ListView
+        android:id="@+id/lvmenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="#cccc"
+    />
+
+</LinearLayout>
